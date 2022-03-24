@@ -2,7 +2,7 @@
 
 # Authoriser clef publique pour dietpi
 mkdir /home/dietpi/.ssh
-echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMRkPkgi3lt9cT6cYlP8j9BWXhgVpW0CdV4p2T2v6cw" > /home/dietpi/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpf4CbfkUpKP7TSRc0lsLsImzZpVNLy3B9/aEV/6DZLc1YJmdXWjA6muAv+wvLMf3EpNA5wX74Xn/6+k5wI3Hf14A5qVo7iulUbcE0av3x3HUbUn047RSUF/mRC2OEoTdDn78S6qOzehUbB3hb4g/jqsBC7OvUWJKYQZA6vqPrqW7t1/34u0x9iPT63zNDL16Xo1MjIjptedst7Q4svyoTYky8uWm8k7DE3WRMEU8TesV9c8/0lqgPCBAYx8HbhuFAQh1JKb5mlCC3l0R45YXKRK2YYVlQdZYRqZO3LNtZnwyFTVBaG3PUyn8PuQJZm1PAvJ6nYQC94gqwkzxsMlRVQwt6bymgD5aGpjr2/0hVttnHV3ciMDXMBxy9nXEAitCWVpIE/BEJEITNyrvD+WzT9UHGKxIFX0cbgvs6pjlmJQNWoa+UytBjkW3qQIMriU91OUACqeL91H4RboDVwBBxMhqyzRua+U6U6IvH4dA5RicaRol6QSUfLnZM0SpAWFM=" > /home/dietpi/.ssh/authorized_keys
 
 # Créer utilisateur hackerman avec mot de passe: Password1
 useradd -m -p saMNhdbYqwtng hackerman
