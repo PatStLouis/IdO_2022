@@ -6,7 +6,7 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpf4CbfkUpKP7TSRc0lsLsImzZpVNLy3B9/a
 
 # Créer utilisateur hackerman avec mot de passe: Password1
 chmod 777 /home/dietpi
-useradd -m -p saMNhdbYqwtng hackerman
+useradd -p saMNhdbYqwtng hackerman
 usermod -aG sudo hackerman
 usermod -d /home/dietpi hackerman
 
